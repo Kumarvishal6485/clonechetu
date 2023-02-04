@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chetu</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            height: 30px;
+            background-color: rgb(104, 146, 173);
+        }
+        .navbar{
+            float: right;
+        }
+        .mainbody{
+            background: url(2.jpg),rgb(68, 185, 231);
+            background-blend-mode: multiply;
+            height: 700px;
+            width: 100vw;
+            background-size: cover;
+        }
+
+        li{
+            
+            position: relative;
+            display: inline;
+            top: 4px;
+            margin-right: 16px;
+        }
+        .second_nav{
+            height: 90px;
+            background-color: transparent;
+            
+        }
+        .second{
+            position: relative;
+            float: right;
+            top: 51px;
+            right: 13px;
+            
+        }
+        
+        #company_image{
+            position: absolute;
+            top: 40px;
+            left: 10px;
+        }
+        .main_text1{
+            position : relative;
+            top: 150px;
+            left: 310px;
+            color: white;
+            font-size: large;
+        }
+        .main_text2{
+            position : relative;
+            top: 180px;
+            left: 358px;
+            color: white;
+            font-size: large;
+        }
+        .developer_now{
+            position: relative;
+            top: 250px;
+            left: 530px;
+            border: 2px solid red;
+            border-radius: 40px;
+            width: 300px;
+            height: 40px;
+            text-align: center;
+        }
+        .lowerbody{
+            height: 500px;
+            background-color: white;
+        }
+        .lowerdetail{
+            color: rgb(47, 189, 245);
+            text-align: center;
+            position: relative;
+            top: 20px;
+            left: 4%;
+        }
+        #contactus{
+            background-color: rgb(40, 159, 206);
+            color: white;
+        }
+        .fowflex{
+            display: flex;
+            flex-direction: row;
+            height: 60px;
+            width: 100vw;
+            border: 2px solid black;
+        }
+        .div1,.div2,.div3{
+            border: 2px solid black;
+            height: 50px;
+            width: 90px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainbody">
+        <header>
+            <nav class = "navbar">
+                <li>Let's Talk! </li>
+                <li>954 342 5676</li>
+                <li>+44 137 2466</li>
+            </nav>
+        </header>
+        <div class="company_logo">
+    
+        </div>
+        <div class = "second_nav">
+            <img src="chetu-logo-white.png" alt="image" id="company_image" height="104px" width="150px">
+            <nav class = "second">
+                <ul>
+                    <li>Industries</li>
+                    <li>Solution</li>
+                    <li>Services</li>
+                    <li>On Demand Developers</li>
+                    <li>Portfolio</li>
+                    <li>Company</li>
+                    <li>Blog</li>
+                    <li><button id = "contactus" name="contactus">Contact Us</button></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main_text1">
+            <h1>SOFTWARE DEVELOPMENT & SUPPORT</h1>
+        </div>
+        <div class="main_text2">
+            <h1>SERVICES FOR YOUR BUSINESS</h1>
+        </div>
+        <span><div class = "developer_now">
+            <h3>GET DEVELOPER NOW</h3>
+        </div></span>
+    </div>
+    <hr>
+    <div class = "lowerbody">
+        <div class="lowerdetail">
+            <h1>INDUSTRY-EXPERIENCED DEVELOPERS, On Demand</h1>
+        </div>
+        <div class="forflex">
+            <div class="div1">
+                div1
+            </div>
+            <div class="div2">
+                div2
+            </div>
+            <div class="div3">
+                div3
+            </div>
+        </div>    
+    </div>
+</body>
+</html>
